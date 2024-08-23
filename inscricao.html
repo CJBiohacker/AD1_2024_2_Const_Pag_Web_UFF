@@ -39,7 +39,8 @@
                 <div class="ColEsqPes">
                     <div class="linhaNome">
                         <label for="nome">Nome:</label>
-                        <input class="inpNome" id="nome" name="nome" type="text" placeholder="Digite seu nome">
+                        <input class="inpNome" id="nome" name="nome" type="text" placeholder="Digite seu nome"
+                            maxlength="35">
                     </div>
                     <div class="linhaDados">
                         <fieldset class="fsGenero">
@@ -60,12 +61,11 @@
                         <div>
                             <label for="telefone">Telefone:</label>
                             <input class="inpTelef" id="telefone" name="telefone" type="tel"
-                                placeholder="Digite seu telefone">
+                                placeholder="Ex: 2126881478">
                         </div>
                         <div>
                             <label for="celular">Celular:</label>
-                            <input class="inpTelef" id="celular" name="celular" type="tel"
-                                placeholder="Digite seu celular">
+                            <input class="inpTelef" id="celular" name="celular" type="tel" placeholder="Ex:2196724587">
                         </div>
                         <div>
                             <label for="idade">Idade:</label>
@@ -124,13 +124,14 @@
                     </div>
                     <div>
                         <label for="validade">Validade:</label>
-                        <input class="numDD" id="validade" name="mes" type="number" maxlength="2">
+                        <input class="numDD" id="validade" name="mes" type="number">
                         /
-                        <input class="numQD" id="validade" name="ano" type="number" maxlength="4">
+                        <input class="numQD" id="validade" name="ano" type="number">
                     </div>
                     <div>
                         <label for="numCartao">Número:</label>
-                        <input class="inpNCC" id="numCartao" name="numCartao" type="text" maxlength="12">
+                        <input class="inpNCC" id="numCartao" name="numCartao" type="text" maxlength="12" pattern="[0-9]"
+                            placeholder="1111222233334444">
                     </div>
                 </fieldset>
 
