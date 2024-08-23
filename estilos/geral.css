@@ -108,3 +108,43 @@ h4 {
 .preco {
     color: #CC0000;
 }
+
+/* Estilos página de Equipamentos */
+.tabEquip {
+    border: solid 1px;
+    width: 510px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.tabEquip th {
+    border: solid 1px;
+    padding: 10px;
+}
+
+.tabEquip td {
+    border: #000000 solid 1px;
+    padding: 10px;
+    /* color: #EEEEBB; */
+    font-size: 12px;
+}
+
+.tabEquip .imgCel {
+    width: 100px;
+    background-color: #FFFFFF;
+}
+
+.imgCel img {
+    width: 100px;
+    height: 100px;
+}
+
+.tabTitulo {
+    background-color: #402020;
+    color: #FFFFFF;
+}
+
+.tabSubTit {
+    background-color: #802020;
+    color: #FFFFFF;
+}
