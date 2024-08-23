@@ -148,3 +148,97 @@ h4 {
     background-color: #802020;
     color: #FFFFFF;
 }
+
+/* Estilos página de Inscrição */
+.formul {
+    width: 400px;
+    margin: 10px auto 0 auto;
+    padding: 20px 0 30px 0;
+    color: #202020;
+    background-color: #EEEEBB;
+    border: #202020 solid 3px;
+    font-size: 12px;
+}
+
+.formul .fsPessoal,
+.fsMatricula {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.formul .fsPessoal .ColEsqPes {
+    display: block;
+    width: 70px;
+    float: left;
+}
+
+.formul .fsPessoal .ColEsqPes .linhaNome {
+    width: 340px;
+    height: 30px;
+    padding-top: 8px;
+}
+
+.formul .inpNome {
+    width: 220px;
+}
+
+.formul .numDD {
+    width: 35px;
+}
+
+.formul .numQD,
+.inpVal {
+    width: 50px;
+}
+
+.formul .inpNCC {
+    width: 130px;
+}
+
+.formul .inpTelef {
+    width: 90px;
+}
+
+.formul .inpMat {
+    width: 70px;
+}
+
+.formul .fsPessoal .ColEsqPes .linhaDados {
+    width: 340px;
+    /* height: 140px; */
+}
+
+.formul .fsPessoal .ColEsqPes .linhaDados .fsGenero div {
+    height: 30px;
+    padding-top: 0;
+}
+
+.formul .fsPessoal .ColEsqPes .linhaDados div {
+    height: 30px;
+    padding-top: 8px;
+}
+
+.formul .fsPessoal .fsGenero {
+    float: right;
+    margin: 0 10px 0 0;
+    padding-bottom: 0;
+}
+
+.formul .fsMatricula .ColDirMat {
+    float: right;
+}
+
+.formul .fsMatricula div {
+    height: 30px;
+    padding-top: 0;
+}
+
+.fsCartao {
+    width: 280px;
+    margin: 35px auto 5px auto;
+}
+
+.formul .entDireita {
+    margin-right: 20px;
+    float: right;
+}
